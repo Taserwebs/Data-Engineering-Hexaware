@@ -226,7 +226,7 @@ EXEC DeleteOrderById @OrderId = 5;
 Select * FROM Orders
 
 -- 7. Stored Procedure with Output Parameter -- 
--- Create a stored procedure named GetTotalProductsInCategory that accepts a Category parameter and returns the total number of products in that category using an output parameter. --
+-- Create a stored procedure named GetTotalProductsInCategory that accepts a Category parameter and returns the total number of products in that category using an outputÂ parameter. --
 CREATE PROCEDURE GetTotalProductsInCategory
 @Category VARCHAR(50),
 @TotalProducts INT OUTPUT
