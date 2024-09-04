@@ -250,7 +250,7 @@ WHERE c.City = 'Mumbai'
 GROUP BY c.CustomerID, c.FirstName, c.LastName;
 
 -- 10. Task: Compare Each Customer's Total Order to the Average Order Amount --
--- Task: Write a query that calculates each customer's total order amount and compares it to the average order amount for all customers. --
+-- Task: Write a query that calculates each customer's total order amount and compares it to the average order amount forÂ allÂ customers. --
 
 WITH CustomerTotals AS (
 SELECT c.CustomerID,c.FirstName,c.LastName,SUM(o.OrderAmount) AS TotalSpent
