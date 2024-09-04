@@ -48,7 +48,6 @@ GROUP BY p.Product_ID,p.Product_Name, c.Customer_ID,c.Customer_Name;
 
 CREATE DATABASE DB
 USE DB
-```sql
 CREATE TABLE Customers (
     CustomerID INT PRIMARY KEY IDENTITY(1,1),
     FirstName VARCHAR(50),
